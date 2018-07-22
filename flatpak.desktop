@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=flatpak update/install
+Comment=update flatpak applications or install them via your web-browser
+Exec=exo-open --launch TerminalEmulator "flatpak-launcher.sh"
+Icon=system-software-install
+Path=
+Terminal=false
+StartupNotify=false
