@@ -15,7 +15,7 @@ if [ -z $@ ];
 then
 	update
 else
-	install
+	install $@
 fi
 
 echo ""
